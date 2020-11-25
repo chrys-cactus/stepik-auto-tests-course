@@ -25,7 +25,7 @@ submit_button = driver.find_element_by_css_selector(".submit-submission")
 
 # Скажем драйверу, что нужно нажать на кнопку. После этой команды мы должны увидеть сообщение о правильном ответе
 submit_button.click()
-time.sleep(5)
+time.sleep(15)
 
 # После выполнения всех действий мы не должны забыть закрыть окно браузера
 driver.quit()
